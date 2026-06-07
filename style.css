@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("images/travel3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #222;
+}
+
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.88);
+    border-radius: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.welcome-text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.profile-section {
+    text-align: center;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.travel-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.rounded-image {
+    border-radius: 20px;
+}
+
+.photo-card {
+    margin-top: 35px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.photo-card img {
+    border-radius: 15px;
+}
+
+.missing-image-test {
+    margin-top: 35px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 15px;
+}
